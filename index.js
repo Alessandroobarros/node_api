@@ -10,6 +10,6 @@ conexao.connect(erro => {
         console.log('Banco conectado')
         Tabelas.init(conexao)
         const app = customExpress()
-        app.listen(3000, () => console.log('servidor rodando na porta 3000'))
+        app.listen(3000, () => console.log('servidor ON, rodando na porta 3000'))
     }
 })
